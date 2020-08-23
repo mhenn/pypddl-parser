@@ -17,12 +17,12 @@
 from ply import lex
 from ply import yacc
 
-from term      import Term
-from literal   import Literal
-from predicate import Predicate
-from action    import Action
-from domain    import Domain
-from problem   import Problem
+from .term      import Term
+from .literal   import Literal
+from .predicate import Predicate
+from .action    import Action
+from .domain    import Domain
+from .problem   import Problem
 
 
 tokens = (
